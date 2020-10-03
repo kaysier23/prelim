@@ -659,7 +659,7 @@ transform:translateX(-90%);
   margin-left: 60px;
 }
 .container20{
-  margin-top: -300px; 
+  margin-top: -230px; 
   margin-left: 700px;
 }
 
@@ -720,6 +720,7 @@ transform:translateX(-90%);
 	animation: waft 2s linear infinite;
 	filter: blur(5px);
 	margin-top:10px;
+  margin-left: 200px;
 }
 
 .coffee{ 
@@ -797,20 +798,15 @@ transform:translateX(-90%);
 .steam{
 position: relative;
 top:40px;
-left:125px;
--webkit-animation: steam 5s linear infinite 3s;
--moz-animation: steam 5s linear infinite 3s;
--ms-animation: steam 5s linear infinite 3s;
--o-animation: steam 5s linear infinite 3s;
-animation: steam 5s linear infinite 3s;
-  
+left:80px;
+margin-left: 40px;
 }
 .steam:before,
 .steam:after{
   content: " ";
   position: absolute;
   top:0;
-  left:-15px;
+  left:-5px;
   border-right: 0px solid transparent;
   border-top: 2px solid #d6d2d2;
   border-left: 5px solid #d6d2d2;
@@ -835,7 +831,7 @@ animation: steam 5s linear infinite 3s;
 
 .steam:after{
 top:40px;
-left:-35px;
+left:-25px;
 z-index: 4;
 border-radius: 80% 0 10% 10%; 
 -webkit-transform: rotate(315deg) skewY(10deg);
@@ -851,6 +847,6 @@ transform: rotate(315deg) skewY(10deg);
 filter: blur(7px);
 }
 .container30{
-  margin-top: -450px; 
+  margin-top: -510px; 
   margin-right: 900px;
 }
