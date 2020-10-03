@@ -13,7 +13,15 @@ body{
 		height:250px;
     width: 1250px;
   margin: 50px;
-  margin-top: 50px;
+  margin-top: 60px;
+  animation: ilis 10s infinite;
+}
+@keyframes ilis{
+  0%{background-color: #5d310d;}
+  25%{background-color: #844613;}
+  50%{background-color: #995016;}
+  75%{background-color: #ce6b28;}
+  100%{background-color: #cf690e;}
 }
 
 .footer{
@@ -36,34 +44,34 @@ body{
 .k {
 
   position: absolute;
-  background: #975d05;
+  background: #f3960b;
   width: 200px;
   height: 220px;
   top: 50%;
   left: 50%;
-margin-top: -270px;
+margin-top: -265px;
   margin-left: -600px;
 }
 .d {
 
   position: absolute;
-  background: #975d05;
+  background: #f3960b;
   width: 200px;
   height: 220px;
   top: 50%;
   left: 50%;
-margin-top: -270px;
+margin-top: -265px;
   margin-left: -300px;
 }
 .a {
 
   position: absolute;
-  background: #975d05;
+  background: #f3960b;
   width: 200px;
   height: 220px;
   top: 50%;
   left: 50%;
-margin-top: -270px;
+margin-top: -265px;
  margin-left: -1px;
 }
 .k::after,
@@ -94,6 +102,14 @@ margin-top: -270px;
   margin-left:70px;
   position: center;
   margin-top:10px;
+     animation: change 10s infinite;
+}
+@keyframes change{
+  0%{background-color: #5d310d;}
+  25%{background-color: #844613;}
+  50%{background-color: #995016;}
+  75%{background-color: #ce6b28;}
+  100%{background-color: #cf690e;}
 }
 
 .container2 {
@@ -360,7 +376,7 @@ margin-top: -270px;
 	position: absolute;
 	top: calc(50% - 140px);
 	right: calc(50% - 150px);
-  margin-top: -320px;
+  margin-top: -315px;
   margin-right: -400px;
 }
 .coffee-cont10 {
