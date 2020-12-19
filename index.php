@@ -4,6 +4,11 @@
 		<link rel="stylesheet" type = "text/css" href = "css/style.css"/>
 	</head>
 	<body>
+		        <div class="row cf"> 
+          <div class="six col">
+        <a href="index.php" class="button" id="button-8">HOME</a>
+      </div>
+      </div>
 		<body>
   <div class = "header">
     <div class="k"></div>
